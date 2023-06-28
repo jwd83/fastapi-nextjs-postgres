@@ -25,6 +25,11 @@ if postgres.app has not been installed with the PATHs set correctly.
 
     $ pip install fastapi "uvicorn[standard]" gunicorn psycopg2 sqlalchemy alembic "databases[postgresql]" python-dotenv
 
+Once the install completes successfully we can do our first pip freeze to get a
+requirements.txt file.
+
+    $ pip freeze > requirements.txt
+
 Once postgres is running we can try...
 
     createdb nfp_boilerplate_dev
