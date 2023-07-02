@@ -1,4 +1,6 @@
-# FastAPI Next.js Postgres Boilerplate Tutorial
+# FastAPI + Next.js + Postgres
+
+## Boilerplate / Tutorial
 
 My own notes following along with the tutorial at:
 
@@ -13,6 +15,10 @@ We're going to need a local postgres server so let's get that handled first.
 Install a local macos postgres server using postgres.app. Be sure to follow the
 install docs to set PATHs on their website. Startup the postgres app and get
 your initial setup done and running.
+
+# Python FastAPI backend
+
+The following section takes place in the fnp-backend folder.
 
 Inside the fnp-backend folder create and activate the python virtual
 environment.
@@ -37,3 +43,6 @@ Once postgres is running we can try...
 
 ...to create the database and user. The password for the user will be prompted.
 I set the password to `test` while following the tutorial.
+
+Next we will enable the database migrations using alembic. See the alembic
+documentation in travis notes for more information.
